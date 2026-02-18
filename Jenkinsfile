@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage ('checkout') {
       steps {
-        giturl:"", branch:"main"
+        giturl:"https://github.com/iammay786/multi-branch-deployment.git", branch:"main"
       }
     }
 
